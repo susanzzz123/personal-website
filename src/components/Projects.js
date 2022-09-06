@@ -50,6 +50,68 @@ export const Projects = () => {
         <div className="px-6 pt-7 mb-3 mt-2 md:mt-16 lg:mt-2 text-2xl md:text-3xl font-bold underline underline-offset-4 decoration-blue-400 decoration-[3px]">
           <span>Projects</span>
         </div>
+        {/* plantr */}
+        <div className="grid place-items-center mb-8 text-center md:w-11/12 h-fit py-5 rounded-2xl bg-gradient-to-br from-emerald-100 to-sky-200 shadow-lg">
+          <div className="mb-2 text-xl md:text-2xl font-bold underline underline-offset-2 decoration-[3px] decoration-blue-400">
+            Plantr
+          </div>
+          <div className="w-9/12">
+            <img src={require('../images/plantr1.png')}
+            alt='Plantr'/>
+          </div>
+          {/* sm devices */}
+          <div className="flex md:hidden mt-1 text-blue-500 text-sm justify-center">
+            JavaScript &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; React &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; Express
+          </div>
+          <div className="flex md:hidden mt-1 text-blue-500 text-sm justify-center">
+            Pl@ntNet API &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; WikiJS &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; Bootstrap
+          </div>
+          <div className="flex md:hidden mt-1 text-blue-500 text-sm justify-center">
+            Google Cloud Natural Language API
+          </div>
+          {/* md devices */}
+          <div className="hidden md:flex lg:hidden mt-1 text-blue-500 text-sm justify-center">
+            JavaScript &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; React &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; Express
+          </div>
+          <div className="hidden md:flex lg:hidden text-blue-500 text-sm justify-center">
+            Pl@ntNet &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; WikiJS &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; Bootstrap
+          </div>
+          <div className="hidden md:flex lg:hidden text-blue-500 text-sm justify-center">
+            Google Cloud Natural Language API
+          </div>
+          {/* lg devices */}
+          <div className="hidden lg:flex mt-1 text-blue-500 text-sm justify-center">
+            JavaScript &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; React &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; Express &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; Pl@ntNet API &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; WikiJS
+          </div>
+          <div className="hidden lg:flex mt-1 text-blue-500 text-sm justify-center">
+            Google Cloud Natural Language API &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; Bootstrap
+          </div>
+          <div className="px-16 mb-2 text-base">
+            <text className='underline underline-offset-2 decoration-2 decoration-blue-400'>PennApps XXIII Hackathon Best Use of Web Automation/non-REST API Data Sources</text>: A plant photo identification app allowing users to upload a picture/link and identify the plant species via the Pl@ntNet API.
+            Performs sentiment analysis on the Wikipedia text about the plant obtained through web scraping.
+          </div>
+          <a href="https://github.com/susanzzz123/pennapps" target='_blank' className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-bold text-blue-600 transition duration-300 ease-out border-2 border-blue-500 rounded-full shadow-md group" rel="noreferrer">
+            <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-blue-500 group-hover:translate-x-0 ease">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </span>
+            <span className="absolute flex items-center justify-center w-full h-full text-blue-500 transition-all duration-300 transform group-hover:translate-x-full ease">GitHub</span>
+            <span className="relative invisible">GitHub</span>
+          </a>
+        </div>
+        {/* campus wire lite */}
         <div className="grid place-items-center mb-8 text-center md:w-11/12 h-fit py-5 rounded-2xl bg-gradient-to-br from-indigo-200 to-sky-200 shadow-lg">
           <div className="mb-2 text-xl md:text-2xl font-bold underline underline-offset-2 decoration-[3px] decoration-blue-400">
             Campus Wire Lite
@@ -100,6 +162,7 @@ export const Projects = () => {
             <span className="relative invisible">GitHub</span>
           </a>
         </div>
+        {/* dynamic personal blog */}
         <div className="grid place-items-center mb-8 text-center md:w-11/12 h-fit py-5 rounded-2xl bg-gradient-to-br from-pink-200 to-amber-100 shadow-lg">
           <div className="mb-2 text-xl md:text-2xl font-bold underline underline-offset-2 decoration-[3px] decoration-pink-400">
             Dynamic Personal Blog
@@ -136,6 +199,7 @@ export const Projects = () => {
             <span className="relative invisible">GitHub</span>
           </a>
         </div>
+        {/* comment app */}
         <div className="grid place-items-center mb-8 text-center justify-center md:w-11/12 h-fit py-5 rounded-2xl bg-gradient-to-br from-emerald-100 to-sky-200 shadow-lg">
           <div className="mb-2 text-xl md:text-2xl font-bold underline underline-offset-2 decoration-[3px] decoration-blue-400">
             Comment App
