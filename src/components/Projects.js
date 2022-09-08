@@ -55,7 +55,7 @@ export const Projects = () => {
           <div className="mb-2 text-xl md:text-2xl font-bold underline underline-offset-2 decoration-[3px] decoration-blue-400">
             Plantr
           </div>
-          <div className="w-11/12 md:w-10/12 overflow-y-auto max-h-[32rem]">
+          <div className="w-11/12 md:w-10/12 overflow-y-auto max-h-64 md:max-h-72 lg:max-h-[32rem]">
             <img src={require('../images/plantr1.png')}
             className='mb-3'
             alt='Plantr upload page'/>
@@ -123,7 +123,7 @@ export const Projects = () => {
           <div className="mb-2 text-xl md:text-2xl font-bold underline underline-offset-2 decoration-[3px] decoration-blue-400">
             Campus Wire Lite
           </div>
-          <div className="w-11/12 overflow-y-auto max-h-[32rem]">
+          <div className="w-11/12 overflow-y-auto max-h-48 md:max-h-56 lg:max-h-[32rem]">
             <img src={require('../images/loggedincw.png')}
             className='mb-3'
             alt='Campus Wire Lite logged-in question page'/>
