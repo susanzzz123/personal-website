@@ -36,7 +36,7 @@ export const About = () => {
           <div className="grid place-items-center">
             <div className="md:col-span-1"></div>
             <div className="w-7/12 md:w-6/12 lg:w-1/4 px-4 mt-10 md:mt-28 lg:mt-20 mb-3 md:col-span-1">
-              <img src={require('../images/self.jpg')} alt='Lingzi(Susan) Zhang'
+              <img src={require('../images/self.png')} alt='Lingzi(Susan) Zhang'
               className='lg:outline lg:outline-4 lg:outline-[#979afc] lg:outline-offset-1 brightness-125 rounded-full h-auto align-middle transform transition-all
               lg:hover:-translate-y-4 duration-300 delay-50 ease-in-out' />
             </div>
