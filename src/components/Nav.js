@@ -41,13 +41,13 @@ export const Nav = ({ page }) => {
             </a>
           </div>
           {/* work */}
-          {/* <div className="relative py-4 sm:max-w-xl sm:mx-auto">
+          <div className="relative py-4 sm:max-w-xl sm:mx-auto">
             <a href="/work" className="font-mono font-display max-w-sm text-xl font-semibold leading-tight">
-                <span className={(page === 'work') ? "underline underline-offset-2 decoration-[#a6a8ff] decoration-[3px] link link-underline link-underline-black text-black" : "link link-underline link-underline-black text-black"}>
-                Work
+                <span className={(page === 'experiences') ? 'underline underline-offset-2 decoration-[#a6a8ff] decoration-[3px] link link-underline link-underline-black text-black' : 'link link-underline link-underline-black text-black'}>
+                Experiences
                 </span>
             </a>
-          </div> */}
+          </div>
           {/* projects */}
           <div className="relative py-4 sm:max-w-xl sm:mx-auto">
             <a href="/projects" className="font-mono font-display max-w-sm text-xl font-semibold leading-tight">

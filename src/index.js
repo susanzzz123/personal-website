@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { App } from './App'
-import { Work } from './components/Work'
+import { Experiences } from './components/Experiences'
 import { Projects } from './components/Projects'
 import {
   BrowserRouter,
@@ -38,7 +38,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<App />}></Route>
-      <Route path="/work" element={<Work />}>
+      <Route path="/work" element={<Experiences />}>
       </Route>
       <Route path='/projects' element={<Projects />}>
       </Route>
