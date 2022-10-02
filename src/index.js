@@ -38,7 +38,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<App />}></Route>
-      <Route path="/work" element={<Experiences />}>
+      <Route path="/experiences" element={<Experiences />}>
       </Route>
       <Route path='/projects' element={<Projects />}>
       </Route>

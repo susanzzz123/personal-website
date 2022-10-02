@@ -40,9 +40,9 @@ export const Nav = ({ page }) => {
               </span>
             </a>
           </div>
-          {/* work */}
+          {/* experiences */}
           <div className="relative py-4 sm:max-w-xl sm:mx-auto">
-            <a href="/work" className="font-mono font-display max-w-sm text-xl font-semibold leading-tight">
+            <a href="/experiences" className="font-mono font-display max-w-sm text-xl font-semibold leading-tight">
                 <span className={(page === 'experiences') ? 'underline underline-offset-2 decoration-[#a6a8ff] decoration-[3px] link link-underline link-underline-black text-black' : 'link link-underline link-underline-black text-black'}>
                 Experiences
                 </span>
