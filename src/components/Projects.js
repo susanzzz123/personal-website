@@ -17,7 +17,7 @@ export const Projects = () => {
 
   return (
     <div className="bg-amber-50 h-screen max-w-full grid md:grid-cols-12">
-      <div className="hidden md:flex md:col-span-4">
+      <div className="hidden md:flex md:col-span-4 md:ml-6">
         <Nav page='projects'></Nav>
       </div>
       {/* side menu */}

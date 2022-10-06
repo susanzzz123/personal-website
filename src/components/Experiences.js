@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Nav } from './Nav'
 import { AiOutlineMenu } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 export const Experiences = () => {
   const [open, setOpen] = useState(false)
@@ -15,7 +16,7 @@ export const Experiences = () => {
   })
   return (
     <div className="bg-amber-50 h-screen max-w-full grid md:grid-cols-12">
-      <div className="hidden md:flex md:col-span-4">
+      <div className="hidden md:flex md:col-span-4 md:ml-6">
         <Nav page='experiences'></Nav>
       </div>
       {/* side menu */}
@@ -29,7 +30,7 @@ export const Experiences = () => {
         }}></AiOutlineMenu>
         <Nav page='experiences'></Nav>
       </div>
-      <div className="md:col-span-8 overflow-y-auto font-mono md:pl-5 md:ml-3">
+      <div className="md:col-span-8 overflow-y-auto font-mono md:pl-5 md:ml-4">
         {/* nav setup for mobile */}
         <div className='md:hidden pt-6 grid'>
           <AiOutlineMenu className='place-self-end mr-4 w-8 h-8 text-gray-400'
@@ -49,13 +50,42 @@ export const Experiences = () => {
           <span>Experiences</span>
         </div>
         {/* Penn labs */}
-        <div className="max-w-sm w-full lg:max-w-full lg:flex">
-          <div className="bg-amber-50 shadow-xl rounded-xl p-4 flex flex-col justify-between leading-normal">
-            <div className="mb-8">
+        <div className="max-w-sm w-9/12 lg:max-w-full lg:flex">
+          <div className="bg-white shadow-xl rounded-xl p-6 flex flex-col justify-between leading-normal mb-6">
+            <div className="ml-2">
               <div className='w-10 h-10'>
                 <img src={require('../images/pennlabs.jpg')} alt='Penn Labs'></img>
               </div>
-              <div className="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+              <div className="text-gray-900 font-bold text-xl">Penn Labs</div>
+              <div className='text-gray-500 text-sm mb-2'>Frontend Developer</div>
+              <div className="text-gray-700 text-base mx-3">
+                Maintain and develop new frontend features, such as new course search filters,  in collaboration with a team of 8 designers and other developers for the Penn Courses products serving thousands of student on campus.
+                <div className='text-blue-600'>
+                  <a href='https://pennlabs.org/products/penn-course-plan'
+                  target='_blank' rel="noreferrer"
+                  className='hover:text-blue-500 underline'>{'[Penn Course Plan]'}</a>
+                  &nbsp;
+                  <a href='https://pennlabs.org/products/penn-course-review'
+                  target='_blank' rel="noreferrer"
+                  className='hover:text-blue-500 underline'>{'[Penn Course Review]'}</a>
+                  &nbsp;
+                  <a href='https://pennlabs.org/products/penn-course-alert'
+                  target='_blank' rel="noreferrer"
+                  className='hover:text-blue-500 underline'>{'[Penn Course Alert]'}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Hack4Impact */}
+        <div className="max-w-sm w-9/12 lg:max-w-fit lg:flex">
+          <div className="bg-white shadow-xl rounded-xl p-4 flex flex-col justify-between leading-normal">
+            <div className="mb-8">
+              <div className='w-10 h-10'>
+                <img src={require('../images/hack.jpg')} alt='Penn Labs'></img>
+              </div>
+              <div className="text-gray-900 font-bold text-xl">Hack4Impact</div>
+              <div className='text-gray-500 text-sm mb-2'>Software Developer</div>
               <p className="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
             </div>
           </div>
