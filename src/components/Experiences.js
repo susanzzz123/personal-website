@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Nav } from './Nav'
 import { AiOutlineMenu } from 'react-icons/ai'
-import { Link } from 'react-router-dom'
 
 export const Experiences = () => {
   const [open, setOpen] = useState(false)
@@ -46,19 +45,19 @@ export const Experiences = () => {
             </span>
           </div>
         </div>
-        <div className="px-6 pt-7 mb-3 mt-2 md:mt-16 lg:mt-2 text-2xl md:text-3xl font-bold underline underline-offset-4 decoration-blue-400 decoration-[3px]">
+        <div className="px-6 pt-7 mb-5 mt-2 md:mt-16 lg:mt-2 text-2xl md:text-3xl font-bold underline underline-offset-4 decoration-blue-400 decoration-[3px]">
           <span>Experiences</span>
         </div>
-        {/* Penn labs */}
-        <div className="max-w-sm w-9/12 lg:max-w-full lg:flex">
+        <div className='md:grid md:justify-center md:w-11/12 lg:w-9/12 max-w-full md:ml-5 lg:ml-12'>
+          {/* Penn labs */}
           <div className="bg-white shadow-xl rounded-xl p-6 flex flex-col justify-between leading-normal mb-6">
             <div className="ml-2">
               <div className='w-10 h-10'>
                 <img src={require('../images/pennlabs.jpg')} alt='Penn Labs'></img>
               </div>
               <div className="text-gray-900 font-bold text-xl">Penn Labs</div>
-              <div className='text-gray-500 text-sm mb-2'>Frontend Developer</div>
-              <div className="text-gray-700 text-base mx-3">
+              <div className='text-gray-500 text-sm mb-2'>Frontend Developer&nbsp;|&nbsp; Sep 2022 - Present</div>
+              <div className="text-gray-700 text-base">
                 Maintain and develop new frontend features, such as new course search filters,  in collaboration with a team of 8 designers and other developers for the Penn Courses products serving thousands of student on campus.
                 <div className='text-blue-600'>
                   <a href='https://pennlabs.org/products/penn-course-plan'
@@ -76,16 +75,14 @@ export const Experiences = () => {
               </div>
             </div>
           </div>
-        </div>
-        {/* Hack4Impact */}
-        <div className="max-w-sm w-9/12 lg:max-w-fit lg:flex">
-          <div className="bg-white shadow-xl rounded-xl p-4 flex flex-col justify-between leading-normal">
-            <div className="mb-8">
+          {/* Hack4Impact */}
+          <div className="bg-white shadow-xl rounded-xl p-6 flex flex-col justify-between leading-normal mb-6">
+            <div className="ml-2">
               <div className='w-10 h-10'>
                 <img src={require('../images/hack.jpg')} alt='Penn Labs'></img>
               </div>
               <div className="text-gray-900 font-bold text-xl">Hack4Impact</div>
-              <div className='text-gray-500 text-sm mb-2'>Software Developer</div>
+              <div className='text-gray-500 text-sm mb-2'>Software Developer&nbsp;|&nbsp; Sep 2022 - Present</div>
               <p className="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
             </div>
           </div>
