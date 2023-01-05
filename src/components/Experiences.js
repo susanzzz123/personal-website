@@ -83,7 +83,10 @@ export const Experiences = () => {
               </div>
               <div className="text-gray-900 font-bold text-xl">Hack4Impact</div>
               <div className='text-gray-500 text-sm mb-2'>Software Developer&nbsp;|&nbsp; Sep 2022 - Present</div>
-              <p className="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+              <p className="text-gray-700 text-base">
+                Work on software solutions that serve nonprofits in the Philadelphia community. An example is a resource
+                tree for the Penn Abuse and Sexual Assault Prevention group at Penn to better centralize resources for victims and supporters.
+              </p>
             </div>
           </div>
         </div>

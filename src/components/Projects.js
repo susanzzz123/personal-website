@@ -50,6 +50,68 @@ export const Projects = () => {
         <div className="px-6 pt-7 mb-3 mt-2 md:mt-16 lg:mt-2 text-2xl md:text-3xl font-bold underline underline-offset-4 decoration-blue-400 decoration-[3px]">
           <span>Projects</span>
         </div>
+        {/* pennbook */}
+        <div className="grid place-items-center mb-8 text-center md:w-11/12 h-fit py-5 rounded-2xl bg-gradient-to-br from-emerald-100 to-sky-200 shadow-lg">
+          <div className="mb-2 text-xl md:text-2xl font-bold underline underline-offset-2 decoration-[3px] decoration-blue-400">
+            Pennbook
+          </div>
+          <div className="w-11/12 md:w-10/12 overflow-y-auto max-h-64 md:max-h-72 lg:max-h-[32rem]">
+            <img src={require('../images/pennbook-home.png')}
+            className='mb-3'
+            alt='Pennbook home page'/>
+            <img src={require('../images/pennbook-wall.png')}
+            className='mb-3'
+            alt='Pennbook user wall page'/>
+          </div>
+          {/* sm devices */}
+          <div className="flex md:hidden mt-1 text-blue-500 text-sm justify-center">
+            JavaScript &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; React &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; Express
+          </div>
+          <div className="flex md:hidden mt-1 text-blue-500 text-sm justify-center">
+            JQuery &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; Socket &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; AWS DynamoDB
+          </div>
+          <div className="flex md:hidden mt-1 text-blue-500 text-sm justify-center">
+            AWS EC2
+          </div>
+          {/* md devices */}
+          <div className="hidden md:flex lg:hidden mt-1 text-blue-500 text-sm justify-center">
+            JavaScript &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; React &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; Express
+          </div>
+          <div className="hidden md:flex lg:hidden text-blue-500 text-sm justify-center">
+            JQuery &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; Socket &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; AWS DynamoDB &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; AWS EC2
+          </div>
+          {/* lg devices */}
+          <div className="hidden lg:flex mt-1 text-blue-500 text-sm justify-center">
+            JavaScript &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; React &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; Express &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; JQuery &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; Socket
+          </div>
+          <div className="hidden lg:flex mt-1 text-blue-500 text-sm justify-center">
+            AWS DynamoDB &nbsp; <BsFlower3 className="mt-1"></BsFlower3>{' '}
+            &nbsp; AWS EC2
+          </div>
+          <div className="px-16 mb-2 text-base">
+            A facebook miniature with features such as posting, commenting, user registration and information update, live chat, news article search, and news recommendations based on the user&apos;s interests that was deployed on EC2 for demo-ing.
+          </div>
+          {/* <a href="https://github.com/susanzzz123/pennapps" target='_blank' className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-bold text-blue-600 transition duration-300 ease-out border-2 border-blue-500 rounded-full shadow-md group" rel="noreferrer">
+            <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-blue-500 group-hover:translate-x-0 ease">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </span>
+            <span className="absolute flex items-center justify-center w-full h-full text-blue-500 transition-all duration-300 transform group-hover:translate-x-full ease">GitHub</span>
+            <span className="relative invisible">GitHub</span>
+          </a> */}
+        </div>
         {/* plantr */}
         <div className="grid place-items-center mb-8 text-center md:w-11/12 h-fit py-5 rounded-2xl bg-gradient-to-br from-emerald-100 to-sky-200 shadow-lg">
           <div className="mb-2 text-xl md:text-2xl font-bold underline underline-offset-2 decoration-[3px] decoration-blue-400">

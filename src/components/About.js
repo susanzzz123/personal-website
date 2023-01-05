@@ -52,12 +52,12 @@ export const About = () => {
                 <div className="px-6 md:pt-2 pb-5">
                   <div className="text-base tracking-tight">
                     <p>
-                      Hi there! I am Susan, a rising sophomore studying Computer Science at the
+                      Hi there! I am Susan, a sophomore studying Computer Science at the
                       University of Pennsylvania. Interested in software development and web development, I am
                       eager to get hands-on with projects and build upon my previous experiences!
                       Despite my interests, I am always open to exploring various fields and seeking opportunities to
                       expand my knowledge and skill set. Currently working with Java, JavaScript, React,
-                      HTML/CSS, and a little bit of Express.js.
+                      Node, and some TypeScript.
                     </p>
                     <br></br>
                     <p>
