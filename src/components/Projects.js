@@ -41,7 +41,7 @@ export const Projects = () => {
             sideMenu.classList.add('translate-x-0')
             setOpen(true)
           }}></AiOutlineMenu>
-          <div className="place-self-center mt-5 bg-gradient-to-br from-pink-200 via-purple-200 to-blue-200 px-4 rounded-[2.75rem] w-fit h-auto align-middle border-none relative py-3 sm:max-w-xl sm:mx-auto">
+          <div className="place-self-center mt-5 px-4 rounded-[2.75rem] w-fit h-auto align-middle border-none relative py-3 sm:max-w-xl sm:mx-auto">
             <span className="font-mono font-display max-w-sm lg:text-4xl md:text-3xl text-2xl font-semibold leading-tight">
             Lingzi (Susan) Zhang
             </span>
@@ -51,7 +51,7 @@ export const Projects = () => {
           <span>Projects</span>
         </div>
         {/* pennbook */}
-        <div className="grid place-items-center mb-8 text-center md:w-11/12 h-fit py-5 rounded-2xl bg-gradient-to-br from-emerald-100 to-sky-200 shadow-lg">
+        <div className="grid place-items-center mb-8 text-center md:w-11/12 h-fit py-5 rounded-2xl bg-white shadow-lg">
           <div className="mb-2 text-xl md:text-2xl font-bold underline underline-offset-2 decoration-[3px] decoration-blue-400">
             Pennbook
           </div>
@@ -113,7 +113,7 @@ export const Projects = () => {
           </a> */}
         </div>
         {/* plantr */}
-        <div className="grid place-items-center mb-8 text-center md:w-11/12 h-fit py-5 rounded-2xl bg-gradient-to-br from-emerald-100 to-sky-200 shadow-lg">
+        <div className="grid place-items-center mb-8 text-center md:w-11/12 h-fit py-5 rounded-2xl bg-white shadow-lg">
           <div className="mb-2 text-xl md:text-2xl font-bold underline underline-offset-2 decoration-[3px] decoration-blue-400">
             Plantr
           </div>
@@ -181,7 +181,7 @@ export const Projects = () => {
           </a>
         </div>
         {/* campus wire lite */}
-        <div className="grid place-items-center mb-8 text-center md:w-11/12 h-fit py-5 rounded-2xl bg-gradient-to-br from-indigo-200 to-sky-200 shadow-lg">
+        <div className="grid place-items-center mb-8 text-center md:w-11/12 h-fit py-5 rounded-2xl bg-white shadow-lg">
           <div className="mb-2 text-xl md:text-2xl font-bold underline underline-offset-2 decoration-[3px] decoration-blue-400">
             Campus Wire Lite
           </div>
@@ -235,7 +235,7 @@ export const Projects = () => {
           </a>
         </div>
         {/* dynamic personal blog */}
-        <div className="grid place-items-center mb-8 text-center md:w-11/12 h-fit py-5 rounded-2xl bg-gradient-to-br from-pink-200 to-amber-100 shadow-lg">
+        <div className="grid place-items-center mb-8 text-center md:w-11/12 h-fit py-5 rounded-2xl bg-white shadow-lg">
           <div className="mb-2 text-xl md:text-2xl font-bold underline underline-offset-2 decoration-[3px] decoration-pink-400">
             Dynamic Personal Blog
           </div>
@@ -272,7 +272,7 @@ export const Projects = () => {
           </a>
         </div>
         {/* comment app */}
-        <div className="grid place-items-center mb-8 text-center justify-center md:w-11/12 h-fit py-5 rounded-2xl bg-gradient-to-br from-emerald-100 to-sky-200 shadow-lg">
+        <div className="grid place-items-center mb-8 text-center justify-center md:w-11/12 h-fit py-5 rounded-2xl bg-white shadow-lg">
           <div className="mb-2 text-xl md:text-2xl font-bold underline underline-offset-2 decoration-[3px] decoration-blue-400">
             Comment App
           </div>

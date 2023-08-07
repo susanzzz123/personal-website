@@ -6,34 +6,16 @@ import pdf from '../files/resume.pdf'
 
 export const Nav = ({ page }) => {
   return (
-    <div className="text-center md:pl-6 max-w-full mt-16 md:mt-40 lg:mt-16">
-      <div className="mb-5 grid md:grid-flow-col place-items-center">
-        <div className="shadow-lg px-8 rounded-full bg-blue-300 max-w-fit pt-16 pb-2">
-            {/* cat */}
-          <div className="cat">
-            <div className="ear ear--left"></div>
-            <div className="ear ear--right"></div>
-            <div className="face">
-              <div className="eye eye--left">
-                <div className="eye-pupil"></div>
-              </div>
-              <div className="eye eye--right">
-                <div className="eye-pupil"></div>
-              </div>
-              <div className="muzzle"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div className="text-center md:pl-6 max-w-full mt-16 md:mt-40 lg:mt-32 ml-16">
       <div className="grid place-items-center divide-y-2 divide-dotted divide-gray-600">
-        <div className="mt-3 bg-gradient-to-br from-pink-200 via-purple-200 to-blue-200 px-4 rounded-[2.75rem] w-fit h-auto align-middle border-none relative py-3 sm:max-w-xl sm:mx-auto">
+        <div className="mt-3 px-4 rounded-[2.75rem] w-fit h-auto align-middle border-none relative py-3 sm:max-w-xl sm:mx-auto">
           <span className="hollow-font font-mono font-display max-w-sm text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight">
             Lingzi (Susan) Zhang
           </span>
         </div>
         <div className="mt-5 md:mt-7">
           {/* about */}
-          <div className="relative py-4 sm:max-w-xl sm:mx-auto mt-2">
+          <div className="relative py-4 sm:max-w-xl sm:mx-auto mt-8">
             <a href="/" className="font-mono font-display max-w-sm text-xl font-semibold leading-tight">
               <span className={(page === 'about') ? 'underline underline-offset-2 decoration-[#a6a8ff] decoration-[3px] link link-underline link-underline-black text-black' : 'link link-underline link-underline-black text-black'}>
                 About
@@ -79,9 +61,9 @@ export const Nav = ({ page }) => {
               <ImLinkedin2 className="w-5 h-5 hover:text-gray-700 cursor-pointer"/>
             </a>
           </div>
-          <div className='mt-8'>
+          {/* <div className='mt-8'>
             <Footer></Footer>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

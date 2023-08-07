@@ -45,27 +45,26 @@ export const About = () => {
           <div className="md:grid md:grid-cols-9 mt-1">
             <div className="md:col-span-1 w-3/4"></div>
             <div className="md:col-span-8 p-4 w-full md:w-11/12 font-mono">
-              <div className="pl-2 h-full bg-gradient-to-br from-emerald-100 via-cyan-100 to-sky-100 rounded-lg shadow-lg">
+              <div className="pl-2 h-full rounded-lg shadow-lg">
                 <div className="text-center md:text-left px-6 pt-5 md:pt-7 mb-3 md:mt-2 text-xl md:text-3xl font-bold underline underline-offset-4 decoration-blue-400 decoration-[3px]">
                   <span>About Me</span>
                 </div>
                 <div className="px-6 md:pt-2 pb-5">
                   <div className="text-base tracking-tight">
                     <p>
-                      Hi there! I am Susan, a sophomore studying Computer Science at the
+                      Hi there! I am Susan, a junior studying Computer Science at the
                       University of Pennsylvania. Interested in software development and web development, I am
                       eager to get hands-on with projects and build upon my previous experiences!
                       Despite my interests, I am always open to exploring various fields and seeking opportunities to
-                      expand my knowledge and skill set. Currently working with Java, JavaScript, React,
-                      Node, and some TypeScript.
-                    </p>
-                    <br></br>
-                    <p>
+                      expand my knowledge and skill set.
+
                       Outside of computer science, you can find me rehearsing with the Penn Symphony Orchestra,
-                      trying all kinds of food, and watching cute cat videos!
+                      trying all kinds of food, and watching cat videos!
                     </p>
                   </div>
                 </div>
+                Skills: Currently working with Java, TypeScript, React,
+                      Node, and Angular.
               </div>
             </div>
           </div>
