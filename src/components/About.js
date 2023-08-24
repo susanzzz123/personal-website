@@ -35,7 +35,7 @@ export const About = () => {
         <div className="md:col-span-8 md:overflow-y-auto">
           <div className="grid place-items-center">
             <div className="md:col-span-1"></div>
-            <div className="w-7/12 md:w-6/12 lg:w-1/4 px-4 mt-10 md:mt-28 lg:mt-20 mb-3 md:col-span-1">
+            <div className="w-7/12 md:w-6/12 lg:w-1/5 px-4 mt-10 md:mt-20 lg:mt-20 mb-3 md:col-span-1">
               <img src={require('../images/self.png')} alt='Lingzi(Susan) Zhang'
               className='lg:outline lg:outline-4 lg:outline-[#979afc] lg:outline-offset-1 brightness-125 rounded-full h-auto align-middle transform transition-all
               lg:hover:-translate-y-4 duration-300 delay-50 ease-in-out' />
@@ -44,9 +44,9 @@ export const About = () => {
           </div>
           <div className="md:grid md:grid-cols-9 mt-1">
             <div className="md:col-span-1 w-3/4"></div>
-            <div className="md:col-span-8 p-4 w-full md:w-11/12 font-mono">
-              <div className="pl-2 h-full rounded-lg shadow-lg">
-                <div className="text-center md:text-left px-6 pt-5 md:pt-7 mb-3 md:mt-2 text-xl md:text-3xl font-bold underline underline-offset-4 decoration-blue-400 decoration-[3px]">
+            <div className="md:col-span-8 p-4 w-10/12 h-fit font-mono">
+              <div className="pl-2 h-full rounded-lg shadow-lg bg-white">
+                <div className="text-center md:text-left px-6 pt-5 md:pt-7 mb-3 md:mt-2 text-xl md:text-2xl font-bold underline underline-offset-4 decoration-blue-400 decoration-[3px]">
                   <span>About Me</span>
                 </div>
                 <div className="px-6 md:pt-2 pb-5">
@@ -63,8 +63,38 @@ export const About = () => {
                     </p>
                   </div>
                 </div>
-                Skills: Currently working with Java, TypeScript, React,
-                      Node, and Angular.
+              </div>
+              <div className='flex mt-5'>
+                <div className="p-6 h-fit rounded-lg shadow-lg w-full bg-white">
+                  <div className="text-center md:text-left mb-3 text-xl font-bold underline underline-offset-4 decoration-blue-400 decoration-[3px]">
+                    <span>Languages</span>
+                  </div>
+                  <div className='pl-5'>
+                    <div>
+                      <ul className='list-disc'>
+                        <li>Java</li>
+                        <li>JavaScript/TypeScript</li>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>HTML/CSS</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="p-6 h-fit rounded-lg shadow-lg w-full ml-10 bg-white">
+                  <div className="text-center md:text-left mb-3 text-xl font-bold underline underline-offset-4 decoration-blue-400 decoration-[3px]">
+                    <span>Frameworks</span>
+                  </div>
+                  <div className='pl-5'>
+                    <ul className='list-disc'>
+                      <li>Git/GitHub/GitLab</li>
+                      <li>React/Node</li>
+                      <li>Angular</li>
+                      <li>MongoDB/Mongoose</li>
+                      <li>Docker</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

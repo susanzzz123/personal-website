@@ -49,6 +49,12 @@ export const Experiences = () => {
           <span>Experiences</span>
         </div>
         <div className='md:grid md:justify-center md:w-11/12 lg:w-9/12 max-w-full md:ml-5 lg:ml-12'>
+        <div className="bg-white shadow-xl rounded-xl p-6 flex flex-col justify-between leading-normal mb-6">
+            <div className="ml-2">
+              <div className="text-gray-900 font-bold text-xl">Chatham Financial </div>
+              <div className='text-gray-500 text-sm'>Software Engineer Intern &nbsp;|&nbsp; Jun 2023 - Aug 2023</div>
+            </div>
+          </div>
           {/* Penn labs */}
           <div className="bg-white shadow-xl rounded-xl p-6 flex flex-col justify-between leading-normal mb-6">
             <div className="ml-2">
